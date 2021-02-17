@@ -1,0 +1,10 @@
+package com.zutjmx.data.stax.astra.app;
+
+public class ConnectDatabase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

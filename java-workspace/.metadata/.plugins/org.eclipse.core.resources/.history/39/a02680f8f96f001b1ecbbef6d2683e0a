@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zutjmx.data.stax.astra.app</groupId>
+  <artifactId>data-stax-java-driver</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>DataStax Java driver Test</name>
+  <description>DataStax Java driver Test</description>
+  
+  <dependencies>
+	<dependency>
+		<groupId>com.datastax.oss</groupId>
+		<artifactId>java-driver-core</artifactId>
+		<version>4.6.1</version>
+	</dependency>
+	
+	<dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-api</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-log4j12</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+  
+  </dependencies>
+  
+</project>
